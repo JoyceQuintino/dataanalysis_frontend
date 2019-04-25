@@ -2,7 +2,7 @@
 
 function initViz() {
     var containerDiv = document.getElementById("vizContainer"),
-        url = "http://public.tableau.com/views/RegionalSampleWorkbook/Storms",
+        url = "",
         options = {
             hideTabs: true,
             onFirstInteractive: function () {
