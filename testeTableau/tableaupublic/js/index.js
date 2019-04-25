@@ -2,7 +2,7 @@
 
 function initViz() {
     var containerDiv = document.getElementById("vizContainer"),
-        url = "",
+        url = "https://public.tableau.com/views/TransparenciaAracati2015-208/Instituio?:embed=y&:display_count=yes&publish=yes",
         options = {
             hideTabs: true,
             onFirstInteractive: function () {
