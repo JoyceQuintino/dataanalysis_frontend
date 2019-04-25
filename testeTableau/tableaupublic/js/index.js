@@ -1,8 +1,6 @@
-//"http://public.tableau.com/views/WorldIndicators/GDPpercapita";
-
 function initViz() {
     var containerDiv = document.getElementById("vizContainer"),
-        url = "https://public.tableau.com/views/TransparenciaAracati2015-208/Instituio?:embed=y&:display_count=yes&publish=yes",
+        url = "https://public.tableau.com/shared/X22KGSTDB?:display_count=yes",
         options = {
             hideTabs: true,
             onFirstInteractive: function () {
