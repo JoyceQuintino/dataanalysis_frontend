@@ -49,3 +49,16 @@ function initVizProjeto() {
 
     var viz = new tableau.Viz(containerDiv, url, options);
 }
+
+function initVizEquipe() {
+    var containerDiv = document.getElementById("vizContainer"),
+        url = "https://public.tableau.com/views/TransparenciaAracati2015-2018/Equipe?:embed=y&:display_count=yes&publish=yes",
+        options = {
+            hideTabs: true,
+            onFirstInteractive: function () {
+                console.log("Run this code when the viz has finished loading.");
+            }
+        };
+
+    var viz = new tableau.Viz(containerDiv, url, options);
+}
